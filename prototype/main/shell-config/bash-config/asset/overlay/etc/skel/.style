@@ -57,14 +57,15 @@ if [ "$XDG_CURRENT_DESKTOP" != "KDE" ]; then
 	## qt-style-follow-qt5ct
 	##
 
-	#export QT_QPA_PLATFORMTHEME=qt5ct
+	export QT_QPA_PLATFORMTHEME=qt5ct
+	#export QT_STYLE_OVERRIDE=kvantum
 
 
 	##
 	## qt-style-follow-gtk
 	##
 
-	export QT_QPA_PLATFORMTHEME=gtk2
+	#export QT_QPA_PLATFORMTHEME=gtk2
 
 
 fi
